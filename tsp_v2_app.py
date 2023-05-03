@@ -488,7 +488,7 @@ def main():
             col2.markdown(f"<h5 style='text-align: center;'>weight : {round(optimal_length,2)}</h5>", unsafe_allow_html=True)
         else:
             with col2:
-                st.warning(f"Due to Resource Constraint, Brute Force TSP Solution can not computed for more than {compute_capacity} houses")
+                st.warning(f"Due to Resource Constraint, Brute Force TSP Solution can not computed for more than {compute_capacity} buildings")
                 
 
         st.markdown("<h3 style='text-align: center;'>Approximate Solutions</h3>", unsafe_allow_html=True)
